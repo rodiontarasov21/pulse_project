@@ -7,6 +7,7 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
+
 }
 
 @import 'base/mixins';
@@ -15,3 +16,7 @@
 @import 'blocks/buttons';
 @import 'blocks/advantages';
 @import 'blocks/titles';
+@import 'base/media';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
