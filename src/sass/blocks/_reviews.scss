@@ -1,0 +1,33 @@
+.reviews {
+    padding: 20px 131px 48px 99px;
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 60px;
+        
+    }
+    &__descr {
+        padding-left: 61px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        span {
+            display: block;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #646464;
+        }
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 10px;
+        color: #0D0D0D;
+        
+    }
+}
